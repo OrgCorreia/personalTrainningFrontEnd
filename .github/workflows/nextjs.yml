@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: OrgCorreia/personalTrainning
-          token: ${{ secrets.GIT_TOKEN }}
+          token: fuebfiuwn342
       - name: Detect package manager
         id: detect-package-manager
         run: |
