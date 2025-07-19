@@ -34,6 +34,7 @@ jobs:
         with:
           repository: OrgCorreia/personalTrainning
           token: ${{ secrets.GIT_TOKEN }}
+          ref: main
       - name: Detect package manager
         id: detect-package-manager
         run: |
