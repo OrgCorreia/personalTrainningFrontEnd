@@ -32,7 +32,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: OrgCorreia/personalTrainning
+          repository: OrgCorreia/personalTraining
           token: ${{ secrets.GIT_TOKEN }}
           ref: main
       - name: Detect package manager
